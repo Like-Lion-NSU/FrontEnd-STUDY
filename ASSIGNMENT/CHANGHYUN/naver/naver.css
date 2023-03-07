@@ -1,0 +1,245 @@
+html{
+    background-color: #F5F6F7;
+}
+
+.nav{
+    position: relative;
+    width:240px;
+    height:50px;
+    overflow: hidden;    
+    margin-left: 120px;
+    margin-top: 50px;
+}
+
+.main{
+    margin-top: 50px;
+}
+
+#logo{
+    position:absolute;
+    left: 0%;
+    top: 0%;
+    width: 240px;
+    height: 100px;
+    z-index: 1;
+}
+
+h3{
+    text-align: left;
+    margin-bottom: 5px;
+    padding-left: 14px;
+    color:black;
+    margin-top: 13px;
+    font-size:14px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+div {
+    text-align: center;
+}
+
+label p{
+    text-align: left !important;   
+    cursor: pointer;
+    width:120px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+    margin-top: 13px;
+    font-size:14px;
+    font-weight: 700;
+}
+
+input{
+    width: 460px;
+    height: 51px;
+    border: solid #dadada 0.5px;
+    cursor: pointer;
+}
+
+input:focus{ 
+    outline-color: #04cf5c;
+}
+
+select{
+    border: solid #dadada 0.5px;
+    cursor: pointer;
+}
+
+select:focus{ 
+    border-color: #04cf5c;
+    outline-color: #04cf5c;
+}
+
+body{
+    width: 500px;
+    height: auto;
+    margin:auto;
+}
+
+#ID{
+    height:79.6px;
+}
+
+#ID_input{
+    border: none;
+    width:150px;
+    height:49px;
+    bottom: 40px;
+    left: 175px;
+    position:relative;
+    color:#8e8e8e;
+}
+
+#PWD{
+    position: relative;
+}
+
+#lock_1{
+    position: absolute;
+    background-size: 150px 90px;
+    width: 30px;
+    height: 30px;
+    right:30px;
+    bottom:0px;
+    top:36px;
+}
+
+#PWD_check{
+    position: relative;
+}
+
+    
+#lock_2{    
+    position: absolute;
+    background-size: 150px 90px;
+    background-position: 25% 0%;
+    width: 30px;
+    height: 30px;
+    right:30px;
+    bottom:0px;
+    top:36px;
+}
+
+#date_3{
+    display: flex;
+    width: auto;
+    padding-left: 15px;
+}
+
+#date_3 select{
+    width:136px;
+    margin-right: 23px;
+}
+
+#date_3 input{
+    width:136px;
+    margin-right: 23px;
+}
+
+#date_3 #day{
+    margin-right:14px;
+}
+
+#gender_list{
+    width: 468px;
+    height: 51px;
+}
+
+#phone input{
+    margin-bottom: 10px;    
+}
+
+#country{
+    width: 468px;
+    height: 51px;
+    margin-bottom: 10px;
+}
+
+#authentication{
+    width:355px;
+}
+
+#at_bt{
+    background-color: #04cf5c;
+    color:white;
+    border: none;
+    padding:16px 3px;
+    padding-bottom: 19px;
+    font-size: 15px;
+}
+
+#signup{
+    background-color: #04cf5c;
+    color:white;
+    width:467.2px;
+    height: 52px;
+    border: none;
+    font-size: 19px;
+    font-weight: bold;
+}
+.footer{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.footer a{
+    color: #494949;
+    font-size: 12px;
+    font-weight: lighter;
+    padding-right: 5px;
+    border-right: solid #DDDDDE 0.5px;
+    text-decoration: none;
+}
+
+#inform{
+    font-weight: bold;
+}
+
+#member, #corp {
+    border:none;
+}
+
+.block{
+    margin-bottom: 35px;
+}
+
+p{
+    margin: 2px;
+}
+
+h5{
+    display: inline-block;
+    border:none;
+}
+
+#last{
+    font-size: 6px;
+    position: relative;
+    margin:0;
+}
+
+#corp:hover{
+    text-decoration: underline;
+    color:#2db400;    
+}
+
+#mini_logo{
+    position: absolute;
+    background-size: 108px 54px;
+    background-position: 0% 98%;
+    width: 80px;
+    height: 30px;
+    left:80px;
+}
+
+#last_link{
+    border: none;
+}
+
+#last p{
+    display: inline-block;
+    width:400px;
+    margin:0px;
+    margin-top: 3px;
+}

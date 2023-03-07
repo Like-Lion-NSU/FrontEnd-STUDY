@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="naver.css">
+    <link rel="stylesheet" href="fontello/css/lock.css">
+    <title>네이버 : 회원가입</title>
+    <link rel="shortcut icon" type="image/x-icon" href="https://play-lh.googleusercontent.com/Kbu0747Cx3rpzHcSbtM1zDriGFG74zVbtkPmVnOKpmLCS59l7IuKD5M3MKbaq_nEaZM">
+</head>
+<body>
+    <div class="nav">
+        <a href="https://www.naver.com">
+            <img src="https://static.nid.naver.com/images/ui/join/m_naver_logo_20191126.png" id="logo">
+        </a>
+    </div>
+    <div class="main">
+        <form>
+            <div class="block">
+                <div id="ID">
+                    <div>
+                        <label for="ID_write"><p>아이디</p>
+                        <span><input type="text" id="ID_write" maxlength="20"></span>    
+                        <span id="ID_input">@naver.com</span>
+                        </label>
+                    </div>
+                </div>
+                <div id="PWD">
+                    <label for="PWD_write"><p>비밀번호</p>
+                    <span><input type="password" id="PWD_write" maxlength="20"></span>
+                    <div id="lock_1" style="background-image:url(https://static.nid.naver.com/images/ui/join/m_icon_pw_step.png)"></div>
+                    </label>    
+                </div>
+                <div id="PWD_check">
+                    <span>
+                        <label for="PWD_rewrite"><p>비밀번호 재확인</p>
+                        <input type="password" id="PWD_rewrite" maxlength="20">
+                        <div id="lock_2" style="background-image:url(https://static.nid.naver.com/images/ui/join/m_icon_pw_step.png)"></div>
+                        </label>
+                    </span>
+                </div>
+            </div> 
+            <div class="block">
+                <div id="name">
+                    <div>
+                        <label for="name_write">
+                        <p>이름</p>
+                        <input type="text" id="name_write" maxlength="20">
+                        </label>
+                    </div>
+                </div>
+                <div id="date">
+                    <span>
+                        <label for="year_write"><p>생년월일</p>
+                        <div id="date_3">
+                            <input type="text" placeholder="년(4자)"id="year_write" maxlength="4">
+                            <select id="date_list">
+                                <option value="월">월</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                            </select>
+                            <input type="text" placeholder="일" id="day"maxlength="2">
+                        </label>
+                        </div>
+                    </span>
+                </div>
+                <div id="gender">
+                    <span>
+                        <label for="gender_list"><p>성별</p>
+                        <Select id="gender_list">
+                            <option value="성별">성별</option>
+                            <option value="남자">남자</option>
+                            <option value="여자">여자</option>
+                            <option value="선택 안함">선택 안함</option>
+                        </Select>
+                        </label>
+                    </span>
+                </div>
+                <div id="email">
+                    <span>
+                        <label for="email_write">
+                        <p>본인 확인 이메일</p>
+                        <input type="text" placeholder="선택입력" id="email_write" maxlength="20">
+                        </label>
+                    </span>
+                </div>
+            </div>
+            <div class="block">
+                <div id="phone">
+                    <div>
+                        <label for="authentication"><p>휴대전화</p>
+                        <div id="phone">
+                            <Select id="country">
+                                <option value="korea">대한민국 +82</option>
+                                <option value="north_amrica">미국/캐나다 +1</option>
+                                <option value="japan">일본 +81</option>
+                                <option value="austrailia">호주 +61</option>
+                            </Select>
+                            <div id="at">
+                                <input type="text" id="authentication" placeholder="전화번호 입력" maxlength="11">
+                                <button id="at_bt">인증번호 받기</button>
+                            </div>
+                            <input type="text" disabled=true placeholder="인증번호를 입력하세요" maxlength="4">
+                        </div>
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <button id="signup">
+                가입하기
+            </button>
+        </form>
+    </div>
+    <div class="footer">
+        <p>
+            <a href="https://policy.naver.com/rules/service.html">이용약관</a>
+            <a href="https://policy.naver.com/policy/privacy.html"id="inform">개인정보처리방침</a>
+            <a href="https://policy.naver.com/rules/disclaimer.html">책임의 한계와 법적고지</a>
+            <a href="https://help.naver.com/service/5640/category/bookmark?lang=ko" id="member">회원정보 고객센터</a>
+        </p>
+        <div id="last">
+            <a href="https://www.naver.com" id="last_link">
+                <div id="mini_logo" style="background-image:url(https://static.nid.naver.com/images/ui/join/m_naver_logo_20191126.png)"> </div>
+            </a>
+            <p>Copyright <a href="https://www.navercorp.com/" id="corp" style="font-weight: bold; font-size: 5px;" >NAVER Corp.</a> All Rights Reserved.</p>
+        <div>
+    </div>
+</body>
+</html>
